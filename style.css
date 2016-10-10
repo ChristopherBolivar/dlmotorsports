@@ -1,0 +1,251 @@
+a, a:hover, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+/*Elements*/ 
+body {
+		  font-family: 'Oswald', sans-serif;
+		  position: relative;
+		  }
+	  h1,h2,h3,h4,.leader {font-family: 'Orbitron', sans-serif;
+}
+           nav a {
+              margin: 0 .5rem;
+              font-size: 1.3rem;
+          }
+          
+          
+          header {
+              background: #000;
+              height: 80px;
+          }
+		  
+          header, header a, header a:visited {
+              color: #fff;
+          }
+            footer, header{
+			  
+			  background: url(img/micro_carbon.png);
+			  }
+#nav, .mobile-nav-list ul li,.btn-display {
+    
+              text-transform: uppercase;
+}
+#nav, .mobile-nav-list ul li {color: #fff;}
+#logoimg {
+              width: 120px;
+              margin-top: -2.3rem;  
+              transition: all .2s ease;
+              cursor: pointer;
+          }
+#logoimg:hover {
+    transform: scale(1.1);
+}
+.product-gal {
+    margin-top: 3rem;
+    height: 50% !important;
+}
+          
+/*Nav*/ 
+
+#callnumber li, #phoneoption li, #mobile-nav-list li, #mobile-nav-list li a:visited{
+             text-decoration: none;
+              list-style: none;
+}
+#phoneoption li {
+    padding: 1rem 3rem;
+    background-color: forestgreen;
+    border-radius: 5px;
+    display: block;
+    margin: .5rem 0
+}
+#phoneoption li:hover {
+    background-color: darkgreen;
+    cursor: pointer;
+}     
+#phoneopcontent {
+        padding: 1.2rem;
+        position: relative;
+        margin-left: 0 !important;
+}
+.exit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #000;
+    border-radius: 200px;
+    background: #fff;
+    padding: .5rem 1rem;
+}
+.exit:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+#phoneoption .modalcontent  {
+        padding: 1.2rem;
+}
+          #mobile-callout div {
+              margin: .5rem .5rem;
+              width: 60px;
+          }
+#mobile-call, #mobile-menu {
+    transition: all .2s ease-out;
+    padding: .5rem;
+    
+}
+#mobile-call:hover, #mobile-menu:hover {
+    background: #fff;
+    cursor: pointer;
+}
+#mobile-call:focus, #mobile-menu:focus {
+    background-color: darkred;
+}
+   .modal-content {
+              background: #000;
+              color: #fff;
+          }
+
+          #mobile-nav-list {
+              text-align: center;
+              padding: 1rem;
+          }
+          #mobile-nav-list li, #mobile-nav-list li a:visited{
+              padding: .5rem 2rem;
+              background: #fff;
+              margin-top: .2rem;
+              color: #000;
+              transition: .2s ease-in-out;
+              
+          }
+         #mobile-nav-list li:hover {
+               background-color: #ccc;
+}
+
+          .close {
+              color: #fff !important;
+          }
+         
+/*Display Banner*/
+       
+          .btn-display {
+			  font-size: 1.2rem;
+			  padding:.8rem;
+              background-color: rgba(153,0,0,0.3);
+			  width: 75%;
+			  text-align:center;
+			  border: 1px solid #fff;
+			  margin: 1.5rem auto 0;
+			  transition: all .2s ease-in-out;
+		  }
+		  .btn-display:hover {
+			  background: #fff;
+			  color: #000;
+			  cursor:pointer;
+		  }
+          
+		  .leader {
+              letter-spacing: 2px;
+              margin-top:1.6rem;
+}
+		   .slide {
+              text-align: center;
+              height: 100vh;
+              
+              color: #fff;
+          }
+          #display  .carousel-item{padding-top: 5rem;}
+          
+          #slide1 {
+              background: radial-gradient(ellipse at center, rgba(0,0,0,.3) 0%,rgba(0,0,0,0.6) 100%),
+                        url(img/main-banner.jpg) no-repeat center center;
+              background-size: cover;
+              
+          }
+           #slide2 {
+              background: radial-gradient(ellipse at center, rgba(0,0,0,.3) 0%,rgba(0,0,0,0.6) 100%),
+                        url(img/main-bg.jpg) no-repeat center center;
+              background-size: cover;
+              
+          }
+          #slide3 {
+              
+              background: radial-gradient(ellipse at center, rgba(0,0,0,.3) 0%,rgba(0,0,0,0.6) 100%),
+                        url(img/sell-bg.jpg) no-repeat center center;
+              background-size: cover;
+              
+          
+          }
+          .slide a, .slide a:visited {
+              color: inherit;
+              text-decoration: none;
+          }
+          
+		  
+		  
+          /* Pages */
+		  #inventory {
+			  background: 
+                  linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(255,255,255,0.97) 58%,rgba(255,255,255,1) 60%),
+                  url(img/graphy.png);
+			  padding:2rem 0;
+              
+			  }
+.card ul li:first-child {background-color:rgba(153,0,0,.3);}
+          #contact {
+              padding: 5rem 0;
+			  background: #ccc;
+          }
+.product-img {
+    position: relative;
+    cursor: pointer;
+}
+.bro {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    width: 100% !important;
+}
+footer {
+    padding: 1rem 0;
+    text-align: center;
+}
+         
+          
+          @media screen and (min-width: 768px) {
+            
+              #logoimg {
+                  width: 180px;
+                  margin-top: -1.5rem;
+              }
+			  .leader {
+                  font-size: 2rem;
+                  max-width: 1020px;
+                  margin: 3rem auto;
+              }
+			  #lead-header {font-size: 4.5rem;}
+              
+               #callnumber, #nav {
+            text-align: center;
+			padding: 1rem;
+			          }
+              #display .carousel-item {padding-top: 8rem;}
+          
+         nav a:hover {
+			 color:darkred;
+			 border-bottom: 2px solid darkred;
+			 }
+              
+          #lead-header {
+			  margin-top: 5rem;
+			  }
+		 
+		  .btn-display{
+			  width: 40%;
+			  }
+			  }
+@media screen and (min-width: 1280px) {
+   
+    
+              .carousel-item h2 {font-size: 3.5rem}
+}
+			 
